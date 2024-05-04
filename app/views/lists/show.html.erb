@@ -4,3 +4,4 @@
 <%= link_to "削除", list_path(@list.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>
 <h2>画像</h2>
 <%= image_tag @list.image, size: "300x300" %>
+<%= link_to "投稿一覧ページへ", lists_path %>
